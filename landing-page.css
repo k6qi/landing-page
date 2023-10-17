@@ -1,0 +1,26 @@
+*{
+    font-family: Roboto;
+}
+
+body{
+    background-color: #1F2937;
+}
+
+.header-logo{
+    font-size:24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    
+}
+
+.head-section-container{
+    display:flex;
+    justify-content: space-around;
+    margin:35px;
+
+}
+
+.nav-headers{
+    font-size:18px;
+    color: #E5E7EB;
+}
