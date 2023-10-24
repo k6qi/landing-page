@@ -65,6 +65,7 @@ body{
 
 .hero-button{
     display: flex;
+    justify-content: center;
     align-items: center;
     width:120px;
     border-radius:8px;
@@ -73,8 +74,9 @@ body{
     background-color: #3882F6;
     color: white;
     font-weight: 800;
-    padding: 15px 30px;
+    padding: 16px 10px;
     font-size: medium;
+    
 }
 
 .hero-button:hover{
@@ -84,7 +86,31 @@ body{
 .nav-headers{
     display: flex;
     justify-content: flex-end;
+    color: #F9FAF8;
+}
+
+.nav-headers a{
+    margin: 0px 10px;
 }
 
 
+.top{
+    height:500px;
+}
 
+.middle{
+    background-color: white;
+    height: 500px;
+}
+
+.middle-header-container{
+    display: flex;
+    justify-content: center;
+}
+
+.middle-header-container h1{
+    margin:40px;
+    font-size: 36px;
+    font-weight:bold;
+    color: #1F2937;
+}
