@@ -21,6 +21,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 20px 230px 0;
+    
 
 }
 
@@ -28,6 +29,10 @@ body{
    display:grid;
    grid-template-columns: 1fr 1fr ;
    margin: 120px 230px 0;
+   padding-bottom:120px;
+
+   
+   
 }
 
 .hero-text{
@@ -92,11 +97,8 @@ body{
 .nav-headers a{
     margin: 0px 10px;
 }
+   
 
-
-.top{
-    height:500px;
-}
 
 .middle{
     background-color: white;
@@ -113,4 +115,31 @@ body{
     font-size: 36px;
     font-weight:bold;
     color: #1F2937;
+
+}
+
+.card-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0em 20em;
+}
+
+.card-subtext{
+    color: black;
+    text-align: center;
+    margin-top:1em;
+}
+
+.square{
+    border:4px solid blue;
+    width:160px;
+    height:160px;
+    border-radius:15px;
+}
+
+.card{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
